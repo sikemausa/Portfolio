@@ -49,25 +49,32 @@ table {
 
 #app {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: #0A3442; }
 
 #header {
-  position: absolute; }
+  width: 100%; }
 
 .header-nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
-  margin: 5px; }
+  height: 7vh;
+  font-size: 1.4em;
+  background-color: #0A3442;
+  font-family: "Open Sans"; }
   .header-nav li {
-    margin: 5px; }
+    margin: 10px; }
   .header-nav a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
 
 #intro {
   background-image: url("../../images/Flatirons.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  opacity: .3; }
 
 /*# sourceMappingURL=index.css.map */
