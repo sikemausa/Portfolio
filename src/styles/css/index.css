@@ -49,8 +49,7 @@ table {
 
 #app {
   display: flex;
-  flex-direction: column;
-  height: 4000px; }
+  flex-direction: column; }
 
 .header-nav {
   display: flex;
