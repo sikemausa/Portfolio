@@ -1,0 +1,14 @@
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 5px;
+
+  li {
+    margin: 5px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
