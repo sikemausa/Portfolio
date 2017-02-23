@@ -1,3 +1,6 @@
+#header {
+  position: absolute; }
+
 .header-nav {
   display: flex;
   flex-direction: row;

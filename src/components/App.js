@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/css/index.css';
 import Header from './Header';
+import Intro from './Intro';
 import Hero from './Hero';
 import About from './About';
 import Competencies from './Competencies';
@@ -28,6 +29,7 @@ class App extends Component {
     return (
       <div id="app">
         <Header />
+        <Intro />
         <Hero />
         <About />
         <Competencies />
