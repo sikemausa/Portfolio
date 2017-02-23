@@ -36,7 +36,6 @@ class App extends Component {
         <Work />
         <Testimonials />
         <Blog />
-        <Signature />
       </div>
     );
   }

@@ -1,7 +1,39 @@
 #intro {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro::after {
+  content: "";
   background-image: url('../../images/Flatirons.jpg');
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  opacity: .3;
+  overflow: auto;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#name {
+  color: $main-font-color;
+  font-family: $main-font-family;
+  font-weight: lighter;
+  font-size: 4em;
+  margin: 5px;
+}
+
+#title {
+  color: $main-font-color;
+  font-family: $main-font-family;
+  font-weight: lighter;
+  margin: 5px;
+  font-size: 1.5em;
 }
