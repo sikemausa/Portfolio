@@ -1,0 +1,23 @@
+// Variables
+
+$main-color: #0A3442;
+$header-color: #335a74;
+$main-font-color: #FFFFFF;
+$main-font-family: "Open Sans";
+
+// Mixins
+
+@mixin work-background {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 27%;
+  opacity: .3;
+  transition: all .15s linear;
+}
+
+@mixin work-background-hover {
+  opacity: 1;
+  transform: scale(1.03);
+}

@@ -1,35 +1,24 @@
 /*
-Error: Undefined variable: "$main-font-color".
-        on line 26 of src/styles/scss/Header.scss
+Error: Undefined variable: "$header-color".
+        on line 18 of src/styles/scss/Header.scss
 
+13:   flex-direction: row;
+14:   align-items: center;
+15:   width: 100%;
+16:   height: 10vh;
+17:   font-size: 1.4em;
+18:   background-color: $header-color;
+19:   font-family: Helvetica;
+20:   font-weight: 100;
 21:   li {
 22:     margin: 10px;
 23:   }
-24:   a {
-25:     text-decoration: none;
-26:     color: $main-font-color;
-27:     cursor: default;
-28:     transition: all .17s linear;
-29:   }
-30:   a:hover{
-31:     transform: scale(1.25);
 
 Backtrace:
-src/styles/scss/Header.scss:26
+src/styles/scss/Header.scss:18
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -79,4 +68,4 @@ src/styles/scss/Header.scss:26
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 26 of src/styles/scss/Header.scss\A \A 21:   li {\A 22:     margin: 10px;\A 23:   }\A 24:   a {\A 25:     text-decoration: none;\A 26:     color: $main-font-color;\A 27:     cursor: default;\A 28:     transition: all .17s linear;\A 29:   }\A 30:   a:hover{\A 31:     transform: scale(1.25);"; }
+  content: "Error: Undefined variable: \"$header-color\".\A         on line 18 of src/styles/scss/Header.scss\A \A 13:   flex-direction: row;\A 14:   align-items: center;\A 15:   width: 100%;\A 16:   height: 10vh;\A 17:   font-size: 1.4em;\A 18:   background-color: $header-color;\A 19:   font-family: Helvetica;\A 20:   font-weight: 100;\A 21:   li {\A 22:     margin: 10px;\A 23:   }"; }

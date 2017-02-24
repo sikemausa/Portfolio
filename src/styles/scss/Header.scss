@@ -15,7 +15,7 @@
   width: 100%;
   height: 10vh;
   font-size: 1.4em;
-  background-color: #335a74;
+  background-color: $header-color;
   font-family: Helvetica;
   font-weight: 100;
   li {
@@ -38,7 +38,7 @@
   flex-direction: row;
   align-items: center;
   height: 10vh;
-  background-color: #335a74;
+  background-color: $header-color;
   padding-right: 25px;
   img {
     transition: all .17s linear;
@@ -49,9 +49,10 @@
   }
   img:hover {
     transform: scale(1.25);
-  }
-  img:active {
     border-radius: 300px;
     background-color: white;
+  }
+  img:active {
+    background-color: $header-color;
   }
 }
