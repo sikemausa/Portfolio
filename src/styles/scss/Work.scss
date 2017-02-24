@@ -1,0 +1,26 @@
+#memory-palace {
+  background-image: url('../../images/memoryPalace.png');
+  @include work-background;
+}
+
+#memory-palace:hover {
+  @include work-background-hover
+}
+
+#sick-beats {
+  background-image: url('../../images/sickBeats.png');
+  @include work-background;
+}
+
+#sick-beats:hover {
+  @include work-background-hover;
+}
+
+#reminders {
+  background-image: url('../../images/reminders.png');
+  @include work-background;
+}
+
+#reminders:hover {
+  @include work-background-hover;
+}

@@ -102,10 +102,11 @@ html {
     height: 7vh;
     margin: 0 10px 0 10px; }
   #social-media img:hover {
-    transform: scale(1.25); }
-  #social-media img:active {
+    transform: scale(1.25);
     border-radius: 300px;
     background-color: white; }
+  #social-media img:active {
+    background-color: #335a74; }
 
 #hero {
   display: flex;
@@ -122,7 +123,7 @@ html {
   overflow: auto;
   opacity: 0.3;
   height: 90vh;
-  top: 7vh;
+  top: 10vh;
   left: 0;
   bottom: 0;
   right: 0;
@@ -152,22 +153,66 @@ html {
   top: 28vh;
   background-color: white;
   border-radius: 45px;
-  opacity: .5;
+  opacity: .3;
   transition: all .2s linear;
   z-index: 1; }
 
 .Arrow:hover {
-  opacity: .8; }
+  opacity: .7;
+  transform: scale(1.25); }
+
+.Arrow:active {
+  opacity: 1; }
 
 .Arrow:before {
   position: absolute;
   display: block;
   content: "";
-  border: 10px solid transparent; }
-
-.Arrow:before {
+  border: 10px solid transparent;
   top: 22px;
   left: 15px;
   border-top-color: black; }
+
+#memory-palace {
+  background-image: url("../../images/memoryPalace.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 27%;
+  opacity: .3;
+  transition: all .15s linear; }
+
+#memory-palace:hover {
+  opacity: 1;
+  transform: scale(1.03); }
+
+#sick-beats {
+  background-image: url("../../images/sickBeats.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 27%;
+  opacity: .3;
+  transition: all .15s linear; }
+
+#sick-beats:hover {
+  opacity: 1;
+  transform: scale(1.03); }
+
+#reminders {
+  background-image: url("../../images/reminders.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 27%;
+  opacity: .3;
+  transition: all .15s linear; }
+
+#reminders:hover {
+  opacity: 1;
+  transform: scale(1.03); }
 
 /*# sourceMappingURL=index.css.map */

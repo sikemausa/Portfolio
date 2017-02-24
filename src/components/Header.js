@@ -10,16 +10,16 @@ class Header extends Component {
         <Headroom>
           <div id="header">
             <ul id="header-nav">
-              <Link activeClass="active" to="Hero" smooth={true} offset={20} duration={1750}>
+              <Link activeClass="active" to="Hero" smooth={true} duration={1750}>
                 <li>Home</li>
               </Link>
-              <Link activeClass="active" to="About" smooth={true} offset={20} duration={1750}>
+              <Link activeClass="active" to="About" smooth={true} duration={1750}>
                 <li>About</li>
               </Link>
-              <Link activeClass="active" to="Work" smooth={true} offset={20} duration={1750}>
+              <Link activeClass="active" to="Work" smooth={true} duration={1750}>
                 <li>Work</li>
               </Link>
-              <Link activeClass="active" to="Blog" smooth={true} offset={20} duration={1750}>
+              <Link activeClass="active" to="Blog" smooth={true} duration={1750}>
                 <li>Blog</li>
               </Link>
             </ul>

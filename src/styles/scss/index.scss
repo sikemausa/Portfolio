@@ -1,7 +1,8 @@
 @import "./reset";
-@import "./variables";
+@import "./variables-mixins";
 @import "./App";
 @import "./Header";
 @import "./Hero";
+@import "./Work";
 
 // sass --watch src/styles/scss:src/styles/css

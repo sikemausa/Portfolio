@@ -8,6 +8,7 @@ import Work from './Work';
 import Testimonials from './Testimonials';
 import Blog from './Blog';
 import Scroll from 'react-scroll';
+import AOS from 'aos';
 
 var Link = Scroll.Link;
 var Element = Scroll.Element;
@@ -17,18 +18,9 @@ var scrollSpy = Scroll.scrollSpy;
 
 class App extends Component {
 
-  // componentDidMount(){
-  //   var path = document.querySelector('.path');
-  //   var length = path.getTotalLength();
-  //   path.style.transition = path.style.WebkitTransition =
-  //   'none';
-  //   path.style.strokeDasharray = length + ' ' + length;
-  //   path.style.strokeDashoffset = length;
-  //   path.getBoundingClientRect();
-  //   path.style.transition = path.style.WebkitTransition =
-  //   'stroke-dashoffset 8s ease-in-out';
-  //   path.style.strokeDashoffset = '0';
-  // }
+  componentDidMount(){
+    AOS.init();
+  }
 
   render() {
     return (
@@ -39,11 +31,11 @@ class App extends Component {
         <Element name="Hero" className="element">
           <Hero />
         </Element>
-        <Element name="About" className="element">
-          <About />
-        </Element>
         <Element name="Work" className="element">
           <Work />
+        </Element>
+        <Element name="About" className="element">
+          <About />
         </Element>
         <Element name="Blog">
           <Blog />
