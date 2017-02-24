@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main-color".
-        on line 12 of src/styles/scss/Header.scss
+        on line 15 of src/styles/scss/Header.scss
 
-7:   flex-direction: row;
-8:   align-items: center;
-9:   width: 100%;
-10:   height: 7vh;
-11:   font-size: 1.4em;
-12:   background-color: $main-color;
-13:   font-family: Helvetica;
-14:   font-weight: 100;
-15: 
-16:   li {
-17:     margin: 10px;
+10:   flex-direction: row;
+11:   align-items: center;
+12:   width: 100%;
+13:   height: 7vh;
+14:   font-size: 1.4em;
+15:   background-color: $main-color;
+16:   font-family: Helvetica;
+17:   font-weight: 100;
+18: 
+19:   li {
+20:     margin: 10px;
 
 Backtrace:
-src/styles/scss/Header.scss:12
+src/styles/scss/Header.scss:15
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/Header.scss:12
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 12 of src/styles/scss/Header.scss\A \A 7:   flex-direction: row;\A 8:   align-items: center;\A 9:   width: 100%;\A 10:   height: 7vh;\A 11:   font-size: 1.4em;\A 12:   background-color: $main-color;\A 13:   font-family: Helvetica;\A 14:   font-weight: 100;\A 15: \A 16:   li {\A 17:     margin: 10px;"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 15 of src/styles/scss/Header.scss\A \A 10:   flex-direction: row;\A 11:   align-items: center;\A 12:   width: 100%;\A 13:   height: 7vh;\A 14:   font-size: 1.4em;\A 15:   background-color: $main-color;\A 16:   font-family: Helvetica;\A 17:   font-weight: 100;\A 18: \A 19:   li {\A 20:     margin: 10px;"; }

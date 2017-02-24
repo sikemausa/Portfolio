@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Headroom from 'react-headroom';
 import { Link } from 'react-scroll';
+import githubLogo from '../images/github.svg';
+import linkedinLogo from '../images/linkedin.svg';
 
 class Header extends Component {
   render() {
     return (
       <nav id="header">
         <Headroom>
-          <ul className="header-nav">
+          <ul id="header-nav">
             <Link activeClass="active" to="Hero" smooth={true} offset={20} duration={1750}>
               <li>Home</li>
             </Link>
@@ -22,6 +24,10 @@ class Header extends Component {
             </Link>
           </ul>
         </Headroom>
+        <ul id="social-media">
+          <li id="linkedin"><img src={githubLogo} /></li>
+          <li id="github"><img src={linkedinLogo} /></li>
+        </ul>
       </nav>
     );
   }

@@ -39,3 +39,21 @@
   font-size: 1.5em;
   z-index: 1;
 }
+
+.Arrow{
+    position: relative;
+    display: block;
+    height: 20px;
+}
+
+.Arrow:before {
+    position: absolute;
+    display: block;
+    content: "";
+    border: 10px solid transparent;
+}
+
+.Arrow:before{
+    bottom: 0;
+    border-bottom-color: black;
+}
