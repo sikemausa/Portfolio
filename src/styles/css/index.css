@@ -136,7 +136,16 @@ html {
 .Arrow {
   position: relative;
   display: block;
-  height: 20px; }
+  height: 50px;
+  width: 50px;
+  top: 200px;
+  background-color: white;
+  border-radius: 45px;
+  z-index: 2;
+  opacity: .5; }
+
+.Arrow:hover {
+  opacity: 1; }
 
 .Arrow:before {
   position: absolute;
@@ -145,7 +154,8 @@ html {
   border: 10px solid transparent; }
 
 .Arrow:before {
-  bottom: 0;
-  border-bottom-color: black; }
+  top: 22px;
+  left: 15px;
+  border-top-color: black; }
 
 /*# sourceMappingURL=index.css.map */
