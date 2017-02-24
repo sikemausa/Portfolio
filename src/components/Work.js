@@ -11,7 +11,6 @@ class Work extends Component {
           <Project />
           <Project />
         </section>
-        <a href="">See All Work</a>
       </section>
     );
   }

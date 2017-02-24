@@ -49,25 +49,65 @@ table {
 
 #app {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: #0A3442; }
 
 #header {
-  position: absolute; }
+  width: 100%; }
 
 .header-nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
-  margin: 5px; }
+  height: 7vh;
+  font-size: 1.4em;
+  background-color: #0A3442;
+  font-family: Helvetica;
+  font-weight: 100; }
   .header-nav li {
-    margin: 5px; }
+    margin: 10px; }
   .header-nav a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: default; }
 
-#intro {
+#hero {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  z-index: 1;
+  align-items: center;
+  justify-content: center; }
+
+#hero::after {
+  content: "";
   background-image: url("../../images/Flatirons.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  overflow: auto;
+  opacity: 0.3;
+  top: 7vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0; }
+
+#name {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-size: 4em;
+  margin: 5px;
+  z-index: 1; }
+
+#title {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-weight: lighter;
+  margin: 5px;
+  font-size: 1.5em;
+  z-index: 1; }
 
 /*# sourceMappingURL=index.css.map */
