@@ -1,9 +1,9 @@
 /*
 Error: Undefined variable: "$main-font-color".
-        on line 26 of src/styles/scss/Intro.scss
+        on line 26 of src/styles/scss/Hero.scss
 
 21:   position: absolute;
-22:   z-index: -1;
+22:   z-index: 0;
 23: }
 24: 
 25: #name {
@@ -12,10 +12,10 @@ Error: Undefined variable: "$main-font-color".
 28:   font-weight: lighter;
 29:   font-size: 4em;
 30:   margin: 5px;
-31: }
+31:   z-index: 1
 
 Backtrace:
-src/styles/scss/Intro.scss:26
+src/styles/scss/Hero.scss:26
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/Intro.scss:26
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 26 of src/styles/scss/Intro.scss\A \A 21:   position: absolute;\A 22:   z-index: -1;\A 23: }\A 24: \A 25: #name {\A 26:   color: $main-font-color;\A 27:   font-family: $main-font-family;\A 28:   font-weight: lighter;\A 29:   font-size: 4em;\A 30:   margin: 5px;\A 31: }"; }
+  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 26 of src/styles/scss/Hero.scss\A \A 21:   position: absolute;\A 22:   z-index: 0;\A 23: }\A 24: \A 25: #name {\A 26:   color: $main-font-color;\A 27:   font-family: $main-font-family;\A 28:   font-weight: lighter;\A 29:   font-size: 4em;\A 30:   margin: 5px;\A 31:   z-index: 1"; }
