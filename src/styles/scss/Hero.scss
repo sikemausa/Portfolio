@@ -1,8 +1,7 @@
 #hero {
   display: flex;
   flex-direction: column;
-  height: 93vh;
-  z-index: 1;
+  height: 90vh;
   align-items: center;
   justify-content: center;
 }
@@ -14,12 +13,12 @@
   background-size: cover;
   overflow: auto;
   opacity: 0.3;
+  height: 90vh;
   top: 7vh;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0;
 }
 
 #name {
@@ -28,7 +27,7 @@
   font-weight: lighter;
   font-size: 4em;
   margin: 5px;
-  z-index: 1
+  z-index: 1;
 }
 
 #title {
@@ -38,4 +37,34 @@
   margin: 5px;
   font-size: 1.5em;
   z-index: 1;
+}
+
+.Arrow {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 50px;
+    top: 28vh;
+    background-color: white;
+    border-radius: 45px;
+    opacity: .5;
+    transition: all .2s linear;
+    z-index: 1;
+}
+
+.Arrow:hover {
+  opacity: .8;
+}
+
+.Arrow:before {
+    position: absolute;
+    display: block;
+    content: "";
+    border: 10px solid transparent;
+}
+
+.Arrow:before{
+    top: 22px;
+    left: 15px;
+    border-top-color: black;
 }

@@ -1,15 +1,18 @@
 /*
 Error: Undefined variable: "$main-color".
-        on line 4 of src/styles/scss/App.scss
+        on line 11 of src/styles/scss/App.scss
 
-1: #app {
-2:   display: flex;
-3:   flex-direction: column;
-4:   background-color: $main-color;
-5: }
+6: }
+7: 
+8: #app {
+9:   display: flex;
+10:   flex-direction: column;
+11:   background-color: $main-color;
+12:   height: 4000px;
+13: }
 
 Backtrace:
-src/styles/scss/App.scss:4
+src/styles/scss/App.scss:11
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -62,4 +65,4 @@ src/styles/scss/App.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 4 of src/styles/scss/App.scss\A \A 1: #app {\A 2:   display: flex;\A 3:   flex-direction: column;\A 4:   background-color: $main-color;\A 5: }"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 11 of src/styles/scss/App.scss\A \A 6: }\A 7: \A 8: #app {\A 9:   display: flex;\A 10:   flex-direction: column;\A 11:   background-color: $main-color;\A 12:   height: 4000px;\A 13: }"; }
