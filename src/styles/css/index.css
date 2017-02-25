@@ -145,17 +145,21 @@ html {
   font-size: 1.5em;
   z-index: 1; }
 
+.work-link {
+  position: relative;
+  display: block;
+  top: 26vh;
+  color: #FFFFFF;
+  text-align: center; }
+
 .Arrow {
   position: relative;
   display: block;
   height: 50px;
   width: 50px;
-  top: 28vh;
-  background-color: white;
-  border-radius: 45px;
-  opacity: .3;
-  transition: all .2s linear;
-  z-index: 1; }
+  z-index: 1;
+  align-text: center;
+  margin: auto; }
 
 .Arrow:hover {
   opacity: .7;
@@ -167,11 +171,29 @@ html {
 .Arrow:before {
   position: absolute;
   display: block;
+  margin: auto;
   content: "";
   border: 10px solid transparent;
   top: 22px;
   left: 15px;
   border-top-color: black; }
+
+#arrow-link:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 22px;
+  left: 15px; }
+
+#arrow-link {
+  position: relative;
+  display: block;
+  top: 28vh; }
+
+#portfolio-link {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  margin: 8px; }
 
 .project {
   height: 350px;
@@ -208,7 +230,6 @@ html {
 .project a {
   height: 100%;
   width: 100%;
-  position: absolute;
   z-index: 2; }
 
 .project::after {
@@ -218,8 +239,12 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: .65;
+  background: #335a74;
+  opacity: .2;
   transition: opacity 0.5s ease; }
+
+.project:hover::after {
+  opacity: 0; }
 
 .project-text {
   display: flex;

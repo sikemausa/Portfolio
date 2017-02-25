@@ -39,17 +39,22 @@
   z-index: 1;
 }
 
+.work-link {
+  position: relative;
+  display: block;
+  top: 26vh;
+  color: $main-font-color;
+  text-align: center;
+}
+
 .Arrow {
     position: relative;
     display: block;
     height: 50px;
     width: 50px;
-    top: 28vh;
-    background-color: white;
-    border-radius: 45px;
-    opacity: .3;
-    transition: all .2s linear;
     z-index: 1;
+    align-text: center;
+    margin: auto;
 }
 
 .Arrow:hover {
@@ -64,9 +69,30 @@
 .Arrow:before {
     position: absolute;
     display: block;
+    margin: auto;
     content: "";
     border: 10px solid transparent;
     top: 22px;
     left: 15px;
     border-top-color: black;
+}
+
+#arrow-link:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 22px;
+    left: 15px;
+}
+
+#arrow-link {
+  position: relative;
+  display: block;
+  top: 28vh;
+}
+
+#portfolio-link {
+  color: $main-font-color;
+  font-family: $main-font-family;
+  margin: 8px;
 }
