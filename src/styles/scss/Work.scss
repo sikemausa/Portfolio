@@ -1,26 +1,92 @@
-#memory-palace {
-  background-image: url('../../images/memoryPalace.png');
-  @include work-background;
+.project {
+  height: 350px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .2s linear;
 }
 
-#memory-palace:hover {
-  @include work-background-hover
+.project:hover {
+  transform: scale(1.1);
 }
 
-#sick-beats {
+.MemoryPalace {
+  background-image: url('../../images/memory.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.SickBeats {
   background-image: url('../../images/sickBeats.png');
-  @include work-background;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#sick-beats:hover {
-  @include work-background-hover;
-}
-
-#reminders {
+.NativeReminders {
   background-image: url('../../images/reminders.png');
-  @include work-background;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#reminders:hover {
-  @include work-background-hover;
+.project a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2
+}
+
+.project::after {
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    // background: #3f4b59;
+    opacity: .65;
+    transition: opacity .5s ease
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0 10%;
+    text-align: right;
+    z-index: 1;
+    color: $main-font-color;
+    font-family: $main-font-family;
+}
+
+.project-image {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: all .5s cubic-bezier(.215, .61, .355, 1);
+    transform: translate3d(0, 0, 0)
+}
+
+.project-title {
+  font-size: 2.5em;
+}
+
+.project-description {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
 }
