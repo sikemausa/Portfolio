@@ -38,7 +38,6 @@
 .project a {
     height: 100%;
     width: 100%;
-    position: absolute;
     z-index: 2
 }
 
@@ -49,9 +48,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    // background: #3f4b59;
-    opacity: .65;
+    background: $header-color;
+    opacity: .2;
     transition: opacity .5s ease
+}
+
+.project:hover::after {
+  opacity: 0;
 }
 
 .project-text {
