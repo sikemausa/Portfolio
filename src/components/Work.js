@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import memoryPalace from '../images/memoryPalace.png';
-import sickBeats from '../images/sickBeats.png';
 import Project from './Project';
 
 class Work extends Component {

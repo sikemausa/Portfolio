@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main-font-color".
-        on line 73 of src/styles/scss/Work.scss
+        on line 70 of src/styles/scss/Work.scss
 
-68:     bottom: 0;
-69:     margin: auto;
-70:     padding: 0 10%;
-71:     text-align: right;
-72:     z-index: 1;
-73:     color: $main-font-color;
-74:     font-family: $main-font-family;
-75: }
-76: 
-77: .project-image {
-78:     height: 100%;
+65:     bottom: 0;
+66:     margin: auto;
+67:     padding: 0 10%;
+68:     text-align: right;
+69:     z-index: 1;
+70:     color: $main-font-color;
+71:     font-family: $main-font-family;
+72: }
+73: 
+74: .project-image {
+75:     height: 100%;
 
 Backtrace:
-src/styles/scss/Work.scss:73
+src/styles/scss/Work.scss:70
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/Work.scss:73
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 73 of src/styles/scss/Work.scss\A \A 68:     bottom: 0;\A 69:     margin: auto;\A 70:     padding: 0 10%;\A 71:     text-align: right;\A 72:     z-index: 1;\A 73:     color: $main-font-color;\A 74:     font-family: $main-font-family;\A 75: }\A 76: \A 77: .project-image {\A 78:     height: 100%;"; }
+  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 70 of src/styles/scss/Work.scss\A \A 65:     bottom: 0;\A 66:     margin: auto;\A 67:     padding: 0 10%;\A 68:     text-align: right;\A 69:     z-index: 1;\A 70:     color: $main-font-color;\A 71:     font-family: $main-font-family;\A 72: }\A 73: \A 74: .project-image {\A 75:     height: 100%;"; }
