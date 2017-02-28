@@ -8,6 +8,7 @@
   cursor: pointer;
   overflow: hidden;
   transition: all .2s linear;
+  color: white;
 }
 
 .project:hover {
@@ -38,6 +39,7 @@
 .project a {
     height: 100%;
     width: 100%;
+    position: absolute;
     z-index: 2
 }
 
@@ -70,7 +72,6 @@
     padding: 0 10%;
     text-align: right;
     z-index: 1;
-    color: $main-font-color;
     font-family: $main-font-family;
 }
 
@@ -80,8 +81,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    transition: all .5s cubic-bezier(.215, .61, .355, 1);
-    transform: translate3d(0, 0, 0)
+    transition: all .5s linear;
 }
 
 .project-title {

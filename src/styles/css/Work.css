@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$header-color".
-        on line 51 of src/styles/scss/Work.scss
+        on line 53 of src/styles/scss/Work.scss
 
-46:     width: 100%;
-47:     content: "";
-48:     position: absolute;
-49:     top: 0;
-50:     left: 0;
-51:     background: $header-color;
-52:     opacity: .2;
-53:     transition: opacity .5s ease
-54: }
-55: 
-56: .project:hover::after {
+48:     width: 100%;
+49:     content: "";
+50:     position: absolute;
+51:     top: 0;
+52:     left: 0;
+53:     background: $header-color;
+54:     opacity: .2;
+55:     transition: opacity .5s ease
+56: }
+57: 
+58: .project:hover::after {
 
 Backtrace:
-src/styles/scss/Work.scss:51
+src/styles/scss/Work.scss:53
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/Work.scss:51
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-color\".\A         on line 51 of src/styles/scss/Work.scss\A \A 46:     width: 100%;\A 47:     content: \"\";\A 48:     position: absolute;\A 49:     top: 0;\A 50:     left: 0;\A 51:     background: $header-color;\A 52:     opacity: .2;\A 53:     transition: opacity .5s ease\A 54: }\A 55: \A 56: .project:hover::after {"; }
+  content: "Error: Undefined variable: \"$header-color\".\A         on line 53 of src/styles/scss/Work.scss\A \A 48:     width: 100%;\A 49:     content: \"\";\A 50:     position: absolute;\A 51:     top: 0;\A 52:     left: 0;\A 53:     background: $header-color;\A 54:     opacity: .2;\A 55:     transition: opacity .5s ease\A 56: }\A 57: \A 58: .project:hover::after {"; }

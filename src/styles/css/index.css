@@ -83,7 +83,7 @@ html {
     text-decoration: none;
     color: #FFFFFF;
     cursor: default;
-    transition: all .17s linear; }
+    transition: all 0.17s cubic-bezier(); }
   #header-nav a:hover {
     transform: scale(1.25);
     color: black; }
@@ -157,6 +157,10 @@ html {
   display: block;
   height: 50px;
   width: 50px;
+  background-color: white;
+  border-radius: 45px;
+  opacity: .3;
+  transition: all .2s linear;
   z-index: 1;
   align-text: center;
   margin: auto; }
@@ -191,9 +195,8 @@ html {
   top: 28vh; }
 
 #portfolio-link {
-  color: #FFFFFF;
-  font-family: "Open Sans";
-  margin: 8px; }
+  color: #0A3442;
+  font-family: "Open Sans"; }
 
 .project {
   height: 350px;
@@ -204,7 +207,8 @@ html {
   display: block;
   cursor: pointer;
   overflow: hidden;
-  transition: all .2s linear; }
+  transition: all .2s linear;
+  color: white; }
 
 .project:hover {
   transform: scale(1.1); }
@@ -230,6 +234,7 @@ html {
 .project a {
   height: 100%;
   width: 100%;
+  position: absolute;
   z-index: 2; }
 
 .project::after {
@@ -259,7 +264,6 @@ html {
   padding: 0 10%;
   text-align: right;
   z-index: 1;
-  color: #FFFFFF;
   font-family: "Open Sans"; }
 
 .project-image {
@@ -268,8 +272,7 @@ html {
   top: 0;
   left: 0;
   position: absolute;
-  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transform: translate3d(0, 0, 0); }
+  transition: all .5s linear; }
 
 .project-title {
   font-size: 2.5em; }
