@@ -83,7 +83,7 @@ html {
     text-decoration: none;
     color: #FFFFFF;
     cursor: default;
-    transition: all 0.17s cubic-bezier(); }
+    transition: all .17s linear; }
   #header-nav a:hover {
     transform: scale(1.25);
     color: black; }
