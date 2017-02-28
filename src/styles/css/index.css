@@ -117,7 +117,7 @@ html {
 
 #hero::after {
   content: "";
-  background-image: url("../../images/Flatirons.jpg");
+  background-image: url("../../images/Flatirons2.jpg");
   background-position: center;
   background-size: cover;
   overflow: auto;
