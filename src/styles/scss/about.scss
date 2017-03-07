@@ -1,0 +1,23 @@
+#about-me-photo {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  #about-me-photo::after {
+    content: "";
+    background-image: url('../../images/portrait2.png');
+    background-position: top;
+    background-size: cover;
+    overflow: auto;
+    opacity: 0.8;
+    height: 75vh;
+    top: 231vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
