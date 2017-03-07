@@ -36,7 +36,10 @@ class Work extends Component {
         </div>
         <div className="project NativeReminders">
           <a href=""></a>
+          <div className="test">
+
           <div className="native-reminders-image"></div>
+          </div>
           <div className="project-text">
             <h1 className="project-title">Native Reminders</h1>
             <p className="project-description">

@@ -4,20 +4,3 @@ $main-color: #0A3442;
 $header-color: #335a74;
 $main-font-color: #FFFFFF;
 $main-font-family: "Open Sans";
-
-// Mixins
-
-@mixin work-background {
-  background-position: center;
-  background-repeat: no-repeat;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-}
-
-@mixin work-background-hover {
-  opacity: 1;
-  transform: scale(1.03);
-}
