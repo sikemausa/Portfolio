@@ -23,7 +23,9 @@ class App extends Component {
           <Header />
         </Element>
       </div>
-        <Hero />
+        <Element name="Home" className="element">
+          <Hero />
+        </Element>
         <Element name="About" className="element">
           <About />
         </Element>

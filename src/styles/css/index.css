@@ -64,7 +64,10 @@ html {
 #header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 #header-nav {
   display: flex;
@@ -106,6 +109,9 @@ html {
     background-color: white; }
   #social-media img:active {
     background-color: #335a74; }
+
+.active {
+  font-size: 35px; }
 
 #hero {
   display: flex;
@@ -363,7 +369,8 @@ html {
   color: #FFFFFF;
   font-family: "Open Sans";
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  height: 60vh; }
 
 #contact-information {
   display: flex;
