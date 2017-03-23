@@ -216,6 +216,8 @@ html {
   background-size: 110% 110%; }
   .project:hover #macbook, .project:hover #phones, .project:hover #iMac {
     transform: scale(1.1); }
+  .project:hover .project-text {
+    text-shadow: 1px 1px 2px black; }
 
 #macbook {
   transition: all 0.5s;
@@ -292,7 +294,8 @@ html {
   text-align: right;
   z-index: 1;
   font-family: "Open Sans";
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition: all 0.5s; }
 
 .project-image {
   height: 100%;

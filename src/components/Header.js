@@ -19,8 +19,8 @@ class Header extends Component {
               <Link activeClass="active" to="Work" smooth={true} duration={1750}>
                 <li>Work</li>
               </Link>
-              <Link activeClass="active" to="Blog" smooth={true} duration={1750}>
-                <li>Blog</li>
+              <Link activeClass="active" to="Contact" smooth={true} duration={1750}>
+                <li>Contact</li>
               </Link>
             </ul>
             <ul id="social-media">
