@@ -6,6 +6,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 
 #header-nav {
@@ -55,4 +58,8 @@
   img:active {
     background-color: $header-color;
   }
+}
+
+.active {
+  font-size: 35px;
 }
