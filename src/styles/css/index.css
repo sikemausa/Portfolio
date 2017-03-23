@@ -199,10 +199,8 @@ html {
   font-family: "Open Sans"; }
 
 .project {
-  height: 350px;
+  height: 400px;
   width: 100%;
-  overflow: hidden;
-  background-size: 350px 350px;
   padding: 0;
   margin: 0;
   position: relative;
@@ -212,25 +210,51 @@ html {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s;
-  color: white; }
+  color: #FFFFFF; }
 
 .project:hover {
   background-size: 110% 110%; }
+  .project:hover #macbook, .project:hover #phones, .project:hover #iMac {
+    transform: scale(1.1); }
+
+#macbook {
+  transition: all 0.5s;
+  height: 247px;
+  width: 420px;
+  top: 70px;
+  left: 3%;
+  position: absolute; }
+
+#phones {
+  transition: all 0.5s;
+  height: 302px;
+  width: 352px;
+  top: 10%;
+  left: 5%;
+  position: absolute; }
+
+#iMac {
+  transition: all 0.5s;
+  height: 294px;
+  width: 355px;
+  top: 60px;
+  left: 5%;
+  position: absolute; }
 
 .MemoryPalace {
-  background-image: url("../../images/memory.png");
+  background-image: url("../../images/memory-palace-no-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
 
 .SickBeats {
-  background-image: url("../../images/sickBeats.png");
+  background-image: url("../../images/sick-beats-no-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
 
 .NativeReminders {
-  background-image: url("../../images/reminders.png");
+  background-image: url("../../images/reminders-no-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
@@ -261,14 +285,14 @@ html {
   align-items: flex-end;
   position: absolute;
   top: 15%;
-  left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
   padding: 0 10%;
   text-align: right;
   z-index: 1;
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  color: #FFFFFF; }
 
 .project-image {
   height: 100%;
@@ -279,7 +303,8 @@ html {
   transition: all .5s linear; }
 
 .project-title {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  width: 330px; }
 
 .project-description {
   text-align: center;
@@ -289,20 +314,21 @@ html {
 #about-me-photo {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  z-index: 1; }
+  z-index: 1;
+  background-size: cover; }
 
 #about-me-photo::after {
   content: "";
-  background-image: url("../../images/portrait2.png");
+  background-image: url("../../images/portrait.jpg");
   background-position: top;
   background-size: cover;
   overflow: auto;
-  opacity: 0.8;
-  height: 75vh;
-  top: 231vh;
+  opacity: 0.95;
+  height: 110vh;
+  top: 100vh;
   left: 0;
   bottom: 0;
   right: 0;

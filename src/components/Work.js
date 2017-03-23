@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Project from './Project';
+import macbook from '../images/macbook.png'
+import phones from '../images/phones.png'
+import iMac from '../images/iMac.png'
 
 class Work extends Component {
   render() {
@@ -7,6 +10,7 @@ class Work extends Component {
       <div>
         <div className="project SickBeats">
           <a href=""></a>
+          <img id ="phones" src={phones} />
           <div id="sick-beats-image"></div>
           <div className="project-text">
             <h1 className="project-title">Sick Beats</h1>
@@ -18,10 +22,12 @@ class Work extends Component {
             <p className="project-technologies">
               Built with: React-native, Redux, Auth-0,
             </p>
+            <h3 class="github-button">View project on Github</h3>
           </div>
         </div>
         <div className="project MemoryPalace">
           <a href=""></a>
+          <img id ="macbook" src={macbook} />
           <div className="memory-palace-image"></div>
           <div className="project-text">
             <h1 className="project-title">Memory Palace Flashcards</h1>
@@ -36,10 +42,8 @@ class Work extends Component {
         </div>
         <div className="project NativeReminders">
           <a href=""></a>
-          <div className="test">
-
+          <img id ="iMac" src={iMac} />
           <div className="native-reminders-image"></div>
-          </div>
           <div className="project-text">
             <h1 className="project-title">Native Reminders</h1>
             <p className="project-description">
