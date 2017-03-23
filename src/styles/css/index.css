@@ -60,7 +60,7 @@ html {
   height: 4000px; }
 
 #header-container {
-  z-index: 2; }
+  z-index: 3; }
 
 #header {
   display: flex;
@@ -291,7 +291,7 @@ html {
   bottom: 0;
   margin: auto;
   padding: 0 10%;
-  text-align: right;
+  text-align: center;
   z-index: 1;
   font-family: "Open Sans";
   color: #FFFFFF;
@@ -307,13 +307,28 @@ html {
 
 .project-title {
   font-size: 2.5em;
-  width: 330px; }
+  width: 330px;
+  text-align: right; }
 
 .project-description {
   text-align: center;
   width: 50%;
   padding: 10px; }
 
+.github-button {
+  position: absolute;
+  top: 50px; }
+
+@media (max-width: 775px) {
+  .project-description {
+    width: 100%;
+    text-align: left; }
+
+  .project-title {
+    text-align: center; }
+
+  .device {
+    display: none; } }
 #about-me-photo {
   display: flex;
   flex-direction: column;
