@@ -15,16 +15,35 @@
 
 .project:hover {
   background-size: 110% 110%;
-  #macbook {
+  #macbook, #phones, #iMac {
     transform: scale(1.1);
   }
 }
 
-#macbook{
+#macbook {
   transition: all 0.5s ;
-  height: 200px;
-  width: 339px;
-  top: 33%;
+  height: 247px;
+  width: 420px;
+  top: 70px;
+  left: 3%;
+  position: absolute;
+}
+
+#phones {
+  transition: all 0.5s ;
+  height: 302px;
+  width: 352px;
+  top: 10%;
+  left: 5%;
+  position: absolute;
+}
+
+#iMac {
+  transition: all 0.5s ;
+  height: 294px;
+  width: 355px;
+  top: 60px;
+  left: 5%;
   position: absolute;
 }
 
@@ -78,7 +97,6 @@
     align-items: flex-end;
     position: absolute;
     top: 15%;
-    left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
@@ -100,6 +118,7 @@
 
 .project-title {
   font-size: 2.5em;
+  width: 330px;
 }
 
 .project-description {

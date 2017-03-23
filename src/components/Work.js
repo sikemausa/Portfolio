@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import macbook from '../images/macbook.png'
+import phones from '../images/phones.png'
+import iMac from '../images/iMac.png'
 
 class Work extends Component {
   render() {
@@ -8,6 +10,7 @@ class Work extends Component {
       <div>
         <div className="project SickBeats">
           <a href=""></a>
+          <img id ="phones" src={phones} />
           <div id="sick-beats-image"></div>
           <div className="project-text">
             <h1 className="project-title">Sick Beats</h1>
@@ -39,6 +42,7 @@ class Work extends Component {
         </div>
         <div className="project NativeReminders">
           <a href=""></a>
+          <img id ="iMac" src={iMac} />
           <div className="native-reminders-image"></div>
           <div className="project-text">
             <h1 className="project-title">Native Reminders</h1>
