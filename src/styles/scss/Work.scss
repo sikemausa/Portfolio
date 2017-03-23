@@ -137,6 +137,13 @@
   top: 50px;
 }
 
+#work-title {
+  color: $main-font-color;
+  font-family: $main-font-family;
+  text-align: center;
+  height: 100px;
+}
+
 @media (max-width: 775px) {
   .project-description {
     width: 100%;
