@@ -3,9 +3,7 @@ import '../styles/css/index.css';
 import Header from './Header';
 import Hero from './Hero';
 import About from './About';
-import Competencies from './Competencies';
 import Work from './Work';
-import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Scroll from 'react-scroll';
 
@@ -21,11 +19,11 @@ class App extends Component {
     return (
       <div id="app">
       <div id="header-container">
-      <Header />
-      </div>
-        <Element name="Hero" className="element">
-          <Hero />
+        <Element name="Home" className="element">
+          <Header />
         </Element>
+      </div>
+        <Hero />
         <Element name="About" className="element">
           <About />
         </Element>

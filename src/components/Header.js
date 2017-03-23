@@ -10,7 +10,7 @@ class Header extends Component {
         <Headroom>
           <div id="header">
             <ul id="header-nav">
-              <Link activeClass="active" to="Hero" smooth={true} duration={1750}>
+              <Link activeClass="active" to="Home" smooth={true} duration={1750}>
                 <li>Home</li>
               </Link>
               <Link activeClass="active" to="About" smooth={true} duration={1750}>

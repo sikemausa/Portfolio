@@ -104,7 +104,7 @@
     bottom: 0;
     margin: auto;
     padding: 0 10%;
-    text-align: right;
+    text-align: center;
     z-index: 1;
     font-family: $main-font-family;
     color: $main-font-color;
@@ -123,6 +123,7 @@
 .project-title {
   font-size: 2.5em;
   width: 330px;
+  text-align: right;
 }
 
 .project-description {
@@ -132,5 +133,19 @@
 }
 
 .github-button {
+  position: absolute;
+  top: 50px;
+}
 
+@media (max-width: 775px) {
+  .project-description {
+    width: 100%;
+    text-align: left;
+  }
+  .project-title {
+    text-align: center;
+  }
+  .device {
+    display: none;
+  }
 }
