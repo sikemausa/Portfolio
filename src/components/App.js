@@ -26,11 +26,11 @@ class App extends Component {
         <Element name="Hero" className="element">
           <Hero />
         </Element>
-        <Element name="Work" className="element">
-          <Work />
-        </Element>
         <Element name="About" className="element">
           <About />
+        </Element>
+        <Element name="Work" className="element">
+          <Work />
         </Element>
         <Element name="Blog">
           <Blog />
