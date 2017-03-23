@@ -56,8 +56,7 @@ html {
 #app {
   display: flex;
   flex-direction: column;
-  background-color: #0A3442;
-  height: 4000px; }
+  background-color: #0A3442; }
 
 #header-container {
   z-index: 3; }
@@ -319,6 +318,12 @@ html {
   position: absolute;
   top: 50px; }
 
+#work-title {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  text-align: center;
+  height: 100px; }
+
 @media (max-width: 775px) {
   .project-description {
     width: 100%;
@@ -345,11 +350,49 @@ html {
   background-size: cover;
   overflow: auto;
   opacity: 0.95;
-  height: 110vh;
+  height: 100vh;
   top: 100vh;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute; }
+
+#contact {
+  background-color: #335a74;
+  height: 450px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column; }
+
+#contact-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; }
+
+#contact-name {
+  font-size: 45px;
+  font-weight: 100; }
+
+#contact-job-title {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-weight: 100; }
+
+#contact-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 20px; }
+
+.contact {
+  margin: 15px;
+  font-weight: 100; }
 
 /*# sourceMappingURL=index.css.map */

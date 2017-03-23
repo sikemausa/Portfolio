@@ -1,0 +1,45 @@
+#contact {
+  background-color: $header-color;
+  height: 450px;
+  color: $main-font-color;
+  font-family: $main-font-family;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+}
+
+#contact-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#contact-name {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+#contact-job-title {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-weight: 100;
+}
+
+#contact-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.contact{
+  margin: 15px;
+  font-weight: 100;
+}
