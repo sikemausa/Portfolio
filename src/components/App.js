@@ -6,7 +6,7 @@ import About from './About';
 import Competencies from './Competencies';
 import Work from './Work';
 import Testimonials from './Testimonials';
-import Blog from './Blog';
+import Contact from './Contact';
 import Scroll from 'react-scroll';
 
 var Link = Scroll.Link;
@@ -32,8 +32,8 @@ class App extends Component {
         <Element name="Work" className="element">
           <Work />
         </Element>
-        <Element name="Blog">
-          <Blog />
+        <Element name="Contact">
+          <Contact />
         </Element>
       </div>
     );
