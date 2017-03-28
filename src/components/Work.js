@@ -20,7 +20,7 @@ class Work extends Component {
             <p className="project-technologies">
               Built with: React-native, Redux, Auth-0,
             </p>
-            <h3 class="github-button">View project on Github</h3>
+            <h3 className="github-button">View project on Github</h3>
           </div>
         </div>
         <div className="project MemoryPalace">
@@ -35,6 +35,7 @@ class Work extends Component {
             <p className="project-technologies">
               Built with: React, Redux, Firebase
             </p>
+            <h3 className="github-button">View project on Github</h3>
           </div>
         </div>
         <div className="project NativeReminders">
@@ -50,6 +51,7 @@ class Work extends Component {
             <p className="project-technologies">
               Built with: Electron, Vue, SQLite3,
             </p>
+            <h3 className="github-button">View project on Github</h3>
           </div>
         </div>
       </div>

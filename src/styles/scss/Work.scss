@@ -15,11 +15,14 @@
 
 .project:hover {
   background-size: 110% 110%;
-  #macbook, #phones, #iMac {
+  #macbook, #phones, #iMac, .github-button {
     transform: scale(1.1);
   }
   .project-text {
     text-shadow: 1px 1px 2px black;
+  }
+  .github-button {
+    opacity: 1;
   }
 }
 
@@ -133,8 +136,14 @@
 }
 
 .github-button {
-  position: absolute;
-  top: 50px;
+  margin-top: 50px;
+  background-color: $header-color;
+  border-radius: 20px;
+  padding: 5px;
+  border: 2px solid $main-font-color;
+  transition: all .5s linear;
+  opacity: 0;
+  font-weight: 100;
 }
 
 #work-title {
