@@ -64,8 +64,8 @@ class Header extends Component {
               </Link>
             </ul>
             <ul id="social-media">
-              <li id="linkedin"><a><img src={githubLogo} /></a></li>
-              <li id="github"><a><img src={linkedinLogo} /></a></li>
+              <li id="linkedin"><a href=""><img src={githubLogo} /></a></li>
+              <li id="github"><a href=""><img src={linkedinLogo} /></a></li>
             </ul>
           </div>
     );
