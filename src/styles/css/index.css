@@ -58,6 +58,9 @@ html {
   flex-direction: column;
   background-color: #0A3442; }
 
+a .nav-link {
+  cursor: pointer; }
+
 #header-container {
   z-index: 3; }
 
