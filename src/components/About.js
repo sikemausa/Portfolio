@@ -11,7 +11,7 @@ class About extends Component {
             <p className="about-description">
                 I'm a Colorado based developer with a diverse set of skills. I make web applications (HTML, CSS, Javascript),
                 mobile applications (React-native), native desktop applications (Electron),
-                and occasionally venture into API design and development (Node and Express).
+                and design / develop API's (Node and Express).
             </p>
           </div>
         </div>
