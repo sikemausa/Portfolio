@@ -5,9 +5,10 @@
   font-family: $main-font-family;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 75vh;
   text-align: center;
   justify-content: center;
+  padding-bottom: 25px;
 }
 
 #contact-header {
@@ -25,6 +26,7 @@
 #contact-name {
   font-size: 45px;
   font-weight: 100;
+  margin-bottom: 10px;
 }
 
 #contact-job-title {
@@ -40,8 +42,8 @@
 #contact-picture {
   height: 200px;
   width: 200px;
-  border-radius: 100px;
-  margin: 20px;
+  border-radius: 200px;
+  margin-bottom: 20px;
 }
 
 .contact{
@@ -58,4 +60,14 @@ a {
   #contact {
     height: 80vh;
   }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #contact {
+      height: 135vh;
+    }
 }

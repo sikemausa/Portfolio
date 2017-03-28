@@ -54,11 +54,12 @@
     border-radius: 0 10px 10px 0;
     width: 400px;
     font-weight: 100;
+    padding: 20px;
   }
 
   .about-description {
-    padding-left: 20px;
-    margin-top: 150px;
+    padding: 20px;
+    margin-top: 50px;
     text-align: left;
     width: 700px;
     font-size: 1.5em;
@@ -69,14 +70,29 @@
 
   @media (max-width: 750px) {
     #about-me-photo{
-      height: 600px;
+      height: 650px;
     }
     .about-description {
-      margin-top: 100px;
+      margin-top: 45px;
       width: 350px;
     }
     .about-title {
       margin-top: 50px;
       width: 300px;
     }
+  }
+
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      .about-description {
+        margin-top: 40px;
+        width: 350px;
+      }
+      .about-title {
+        margin-top: 150px;
+        width: 300px;
+      }
   }
