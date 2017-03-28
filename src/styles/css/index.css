@@ -353,7 +353,7 @@ html {
 
 #about-me-photo::after {
   content: "";
-  background-image: url("../../images/test2.png");
+  background-image: url("../../images/about-me-image.jpg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
