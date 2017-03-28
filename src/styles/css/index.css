@@ -413,6 +413,17 @@ a .nav-link {
   background-color: #335a74;
   border-radius: 0 10px 10px 0; }
 
+@media (max-width: 750px) {
+  #about-me-photo {
+    height: 600px; }
+
+  .about-description {
+    margin-top: 100px;
+    width: 400px; }
+
+  .about-title {
+    margin-top: 50px;
+    width: 300px; } }
 #contact {
   background-color: #335a74;
   height: 450px;
