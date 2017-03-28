@@ -4,7 +4,7 @@ Error: Undefined variable: "$main-font-family".
 
 40:       bottom: 0;
 41:       margin: auto;
-42:       padding: 0 10%;
+42:       // padding: 0 10%;
 43:       text-align: center;
 44:       z-index: 1;
 45:       font-family: $main-font-family;
@@ -68,4 +68,4 @@ src/styles/scss/About.scss:45
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-font-family\".\A         on line 45 of src/styles/scss/About.scss\A \A 40:       bottom: 0;\A 41:       margin: auto;\A 42:       padding: 0 10%;\A 43:       text-align: center;\A 44:       z-index: 1;\A 45:       font-family: $main-font-family;\A 46:       color: $main-font-color;\A 47:       transition: all 0.5s ;\A 48:   }\A 49: \A 50:   .about-title {"; }
+  content: "Error: Undefined variable: \"$main-font-family\".\A         on line 45 of src/styles/scss/About.scss\A \A 40:       bottom: 0;\A 41:       margin: auto;\A 42:       // padding: 0 10%;\A 43:       text-align: center;\A 44:       z-index: 1;\A 45:       font-family: $main-font-family;\A 46:       color: $main-font-color;\A 47:       transition: all 0.5s ;\A 48:   }\A 49: \A 50:   .about-title {"; }
