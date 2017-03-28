@@ -9,7 +9,10 @@ class Contact extends Component {
           <img id="contact-picture" src={contactPicture} />
           <h1 id="contact-name">Mike Sausa</h1>
           <h2 id="contact-job-title">Front-End Developer</h2>
-          <h3><span className="contact">Email</span> • <span className="contact"> Github </span> • <span className="contact">Linkedin</span></h3>
+          <h3>
+            <a className="contact" href="mailto:mikejsausa@gmail.com">Email</a> •
+            <a className="contact" href="https://github.com/sikemausa" target="_blank"> Github </a> •
+            <a className="contact" href="https://www.linkedin.com/in/mikesausa/" target="_blank">Linkedin</a></h3>
         </div>
       </section>
     );
