@@ -6,6 +6,7 @@ class Contact extends Component {
     return (
       <section id="contact">
         <div id="contact-information">
+        <h1 id="contact-header">I would love to hear from you about new projects and opportunities in the industry!</h1>
           <img id="contact-picture" src={contactPicture} />
           <h1 id="contact-name">Mike Sausa</h1>
           <h2 id="contact-job-title">Front-End Developer</h2>
