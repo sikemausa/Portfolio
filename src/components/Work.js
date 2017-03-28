@@ -8,7 +8,7 @@ class Work extends Component {
     return (
       <div>
         <div className="project SickBeats">
-          <a href=""></a>
+          <a href="https://github.com/sikemausa/Song_Analyzer#spotify-song-anayzer-application" target="_blank"></a>
           <img className="device" id="phones" src={phones} />
           <div className="project-text">
             <h1 className="project-title">Sick Beats</h1>
@@ -24,7 +24,7 @@ class Work extends Component {
           </div>
         </div>
         <div className="project MemoryPalace">
-          <a href=""></a>
+          <a href="https://github.com/sikemausa/memory-palace-app" target="_blank"></a>
           <img className="device" id="macbook" src={macbook} />
           <div className="project-text">
             <h1 className="project-title">Memory Palace Flashcards</h1>
@@ -39,7 +39,7 @@ class Work extends Component {
           </div>
         </div>
         <div className="project NativeReminders">
-          <a href=""></a>
+          <a href="https://github.com/sikemausa/electron-vue-reminders-app" target="_blank"></a>
           <img className="device" id="iMac" src={iMac} />
           <div className="project-text">
             <h1 className="project-title">Reminders</h1>

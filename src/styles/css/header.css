@@ -6,7 +6,7 @@ Error: Undefined variable: "$header-color".
 17:   align-items: center;
 18:   width: 100%;
 19:   height: 10vh;
-20:   font-size: 1.4em;
+20:   font-size: 1.2em;
 21:   background-color: $header-color;
 22:   font-family: Helvetica;
 23:   font-weight: 100;
@@ -68,4 +68,4 @@ src/styles/scss/Header.scss:21
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-color\".\A         on line 21 of src/styles/scss/Header.scss\A \A 16:   flex-direction: row;\A 17:   align-items: center;\A 18:   width: 100%;\A 19:   height: 10vh;\A 20:   font-size: 1.4em;\A 21:   background-color: $header-color;\A 22:   font-family: Helvetica;\A 23:   font-weight: 100;\A 24:   li {\A 25:     margin: 10px;\A 26:   }"; }
+  content: "Error: Undefined variable: \"$header-color\".\A         on line 21 of src/styles/scss/Header.scss\A \A 16:   flex-direction: row;\A 17:   align-items: center;\A 18:   width: 100%;\A 19:   height: 10vh;\A 20:   font-size: 1.2em;\A 21:   background-color: $header-color;\A 22:   font-family: Helvetica;\A 23:   font-weight: 100;\A 24:   li {\A 25:     margin: 10px;\A 26:   }"; }
