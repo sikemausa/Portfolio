@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import contactPicture from '../images/contact-picture.jpg';
+import pigeon from '../images/pigeon.png';
 
 class Contact extends Component {
   render() {
@@ -7,7 +8,7 @@ class Contact extends Component {
       <section id="contact">
         <div id="contact-information">
         <h1 id="contact-header">I would love to hear from you about new projects and opportunities in the industry!</h1>
-          <img id="contact-picture" src={contactPicture} />
+          <img id="contact-picture" src={pigeon} />
           <h1 id="contact-name">Mike Sausa</h1>
           <h2 id="contact-job-title">Front-End Developer</h2>
           <h3>
