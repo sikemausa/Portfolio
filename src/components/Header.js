@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Headroom from 'react-headroom';
 import { Link } from 'react-scroll';
 import githubLogo from '../images/github.svg';
 import linkedinLogo from '../images/linkedin.svg';
@@ -49,28 +48,26 @@ class Header extends Component {
 
   render() {
     return (
-        // <Headroom>
           <div id="header">
             <ul id="header-nav">
               <Link activeClass="active" offset={-80} to="Home" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
-                <li>Home</li>
+                <li className="nav-link">Home</li>
               </Link>
               <Link activeClass="active" offset={-80} to="About" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
-                <li>About</li>
+                <li className="nav-link">About</li>
               </Link>
               <Link activeClass="active" offset={-80} to="Work" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
-                <li>Portfolio</li>
+                <li className="nav-link">Portfolio</li>
               </Link>
               <Link activeClass="active" offset={-450} to="Contact" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
-                <li>Contact</li>
+                <li className="nav-link">Contact</li>
               </Link>
             </ul>
             <ul id="social-media">
-              <li id="linkedin"><img src={githubLogo} /></li>
-              <li id="github"><img src={linkedinLogo} /></li>
+              <li id="linkedin"><a><img src={githubLogo} /></a></li>
+              <li id="github"><a><img src={linkedinLogo} /></a></li>
             </ul>
           </div>
-        // </Headroom>
     );
   }
 }

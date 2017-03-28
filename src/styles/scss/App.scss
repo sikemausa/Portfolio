@@ -10,3 +10,7 @@ html {
   flex-direction: column;
   background-color: $main-color;
 }
+
+a .nav-link {
+  cursor: pointer;
+}

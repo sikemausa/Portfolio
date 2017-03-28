@@ -9,6 +9,10 @@ Error: Undefined variable: "$main-color".
 10:   flex-direction: column;
 11:   background-color: $main-color;
 12: }
+13: 
+14: a .nav-link {
+15:   cursor: pointer;
+16: }
 
 Backtrace:
 src/styles/scss/App.scss:11
@@ -64,4 +68,4 @@ src/styles/scss/App.scss:11
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 11 of src/styles/scss/App.scss\A \A 6: }\A 7: \A 8: #app {\A 9:   display: flex;\A 10:   flex-direction: column;\A 11:   background-color: $main-color;\A 12: }"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 11 of src/styles/scss/App.scss\A \A 6: }\A 7: \A 8: #app {\A 9:   display: flex;\A 10:   flex-direction: column;\A 11:   background-color: $main-color;\A 12: }\A 13: \A 14: a .nav-link {\A 15:   cursor: pointer;\A 16: }"; }
