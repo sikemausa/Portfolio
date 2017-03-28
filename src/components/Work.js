@@ -10,7 +10,6 @@ class Work extends Component {
         <div className="project SickBeats">
           <a href=""></a>
           <img className="device" id="phones" src={phones} />
-          <div id="sick-beats-image"></div>
           <div className="project-text">
             <h1 className="project-title">Sick Beats</h1>
             <p className="project-description">
@@ -27,7 +26,6 @@ class Work extends Component {
         <div className="project MemoryPalace">
           <a href=""></a>
           <img className="device" id="macbook" src={macbook} />
-          <div className="memory-palace-image"></div>
           <div className="project-text">
             <h1 className="project-title">Memory Palace Flashcards</h1>
             <p className="project-description">
@@ -42,7 +40,6 @@ class Work extends Component {
         <div className="project NativeReminders">
           <a href=""></a>
           <img className="device" id="iMac" src={iMac} />
-          <div className="native-reminders-image"></div>
           <div className="project-text">
             <h1 className="project-title">Reminders</h1>
             <p className="project-description">
