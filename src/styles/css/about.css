@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$main-font-family".
-        on line 45 of src/styles/scss/About.scss
+Error: Undefined variable: "$main-font-color".
+        on line 41 of src/styles/scss/About.scss
 
-40:       bottom: 0;
-41:       margin: auto;
-42:       // padding: 0 10%;
-43:       text-align: center;
-44:       z-index: 1;
-45:       font-family: $main-font-family;
-46:       color: $main-font-color;
-47:       transition: all 0.5s ;
-48:   }
-49: 
-50:   .about-title {
+36:   top            : 110%;
+37:   bottom         : 0;
+38:   left           : 0;
+39:   width          : 30%;
+40:   margin         : auto;
+41:   color          : $main-font-color;
+42:   text-align     : center;
+43:   font-family    : $main-font-family;
+44:   flex-direction : column;
+45:   transition     : all 0.5s;
+46: }
 
 Backtrace:
-src/styles/scss/About.scss:45
+src/styles/scss/About.scss:41
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/About.scss:45
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-font-family\".\A         on line 45 of src/styles/scss/About.scss\A \A 40:       bottom: 0;\A 41:       margin: auto;\A 42:       // padding: 0 10%;\A 43:       text-align: center;\A 44:       z-index: 1;\A 45:       font-family: $main-font-family;\A 46:       color: $main-font-color;\A 47:       transition: all 0.5s ;\A 48:   }\A 49: \A 50:   .about-title {"; }
+  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 41 of src/styles/scss/About.scss\A \A 36:   top            : 110%;\A 37:   bottom         : 0;\A 38:   left           : 0;\A 39:   width          : 30%;\A 40:   margin         : auto;\A 41:   color          : $main-font-color;\A 42:   text-align     : center;\A 43:   font-family    : $main-font-family;\A 44:   flex-direction : column;\A 45:   transition     : all 0.5s;\A 46: }"; }

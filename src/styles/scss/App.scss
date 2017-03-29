@@ -1,16 +1,19 @@
 html {
- box-sizing: border-box;
+  box-sizing : border-box;
 }
-*, *:before, *:after {
- box-sizing: inherit;
+
+*,
+*:after,
+*:before {
+  box-sizing : inherit;
 }
 
 #app {
-  display: flex;
-  flex-direction: column;
-  background-color: $main-color;
+  display          : flex;
+  background-color : $main-color;
+  flex-direction   : column;
 }
 
 a .nav-link {
-  cursor: pointer;
+  cursor : pointer;
 }

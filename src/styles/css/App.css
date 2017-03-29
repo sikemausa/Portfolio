@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main-color".
-        on line 11 of src/styles/scss/App.scss
+        on line 13 of src/styles/scss/App.scss
 
-6: }
-7: 
-8: #app {
-9:   display: flex;
-10:   flex-direction: column;
-11:   background-color: $main-color;
-12: }
-13: 
-14: a .nav-link {
-15:   cursor: pointer;
-16: }
+8:   box-sizing : inherit;
+9: }
+10: 
+11: #app {
+12:   display          : flex;
+13:   background-color : $main-color;
+14:   flex-direction   : column;
+15: }
+16: 
+17: a .nav-link {
+18:   cursor : pointer;
 
 Backtrace:
-src/styles/scss/App.scss:11
+src/styles/scss/App.scss:13
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/App.scss:11
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 11 of src/styles/scss/App.scss\A \A 6: }\A 7: \A 8: #app {\A 9:   display: flex;\A 10:   flex-direction: column;\A 11:   background-color: $main-color;\A 12: }\A 13: \A 14: a .nav-link {\A 15:   cursor: pointer;\A 16: }"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 13 of src/styles/scss/App.scss\A \A 8:   box-sizing : inherit;\A 9: }\A 10: \A 11: #app {\A 12:   display          : flex;\A 13:   background-color : $main-color;\A 14:   flex-direction   : column;\A 15: }\A 16: \A 17: a .nav-link {\A 18:   cursor : pointer;"; }

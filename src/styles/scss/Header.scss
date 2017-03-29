@@ -1,74 +1,81 @@
 #header-container {
-  z-index: 3;
+  z-index : 3;
 }
 
 #header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: fixed;
-  top:0;
-  width: 100%;
+  display         : flex;
+  position        : fixed;
+  top             : 0;
+  width           : 100%;
+  flex-direction  : row;
+  justify-content : space-between;
 }
 
 #header-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  height: 10vh;
-  font-size: 1.2em;
-  background-color: $header-color;
-  font-family: Helvetica;
-  font-weight: 100;
+  display          : flex;
+  width            : 100%;
+  height           : 10vh;
+  background-color : $header-color;
+  align-items      : center;
+  font-family      : Helvetica;
+  font-size        : 1.2em;
+  font-weight      : 100;
+  flex-direction   : row;
+
   li {
-    margin: 10px;
+    margin : 10px;
   }
+
   a {
-    text-decoration: none;
-    color: $main-font-color;
-    cursor: default;
-    transition: all .17s linear;
+    color           : $main-font-color;
+    text-decoration : none;
+    transition      : all .17s linear;
+    cursor          : default;
   }
-  a:hover{
-    transform: scale(1.25);
-    color: black;
+
+  a:hover {
+    color     : black;
+    transform : scale(1.25);
   }
 }
 
 #social-media {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 10vh;
-  background-color: $header-color;
-  padding-right: 25px;
+  display          : flex;
+  height           : 10vh;
+  padding-right    : 25px;
+  background-color : $header-color;
+  align-items      : center;
+  flex-direction   : row;
+
   img {
-    transition: all .17s linear;
-    overflow: auto;
-    width: 7vh;
-    height: 7vh;
-    margin: 0 10px 0 10px;
+    width      : 7vh;
+    height     : 7vh;
+    margin     : 0 10px 0 10px;
+    overflow   : auto;
+    transition : all .17s linear;
   }
+
   img:hover {
-    transform: scale(1.25);
-    border-radius: 300px;
-    background-color: white;
+    border-radius    : 300px;
+    background-color : white;
+    transform        : scale(1.25);
   }
+
   img:active {
-    background-color: $header-color;
+    background-color : $header-color;
   }
 }
 
 .active {
-  font-size: 1.4em;
+  font-size : 1.4em;
 }
 
 @media (max-width: 500px) {
   #social-media {
-    display: none;
+    display : none;
   }
+
   #header-nav {
-    justify-content: space-between;
+    justify-content : space-between;
   }
 }
