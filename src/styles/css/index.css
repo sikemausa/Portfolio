@@ -358,7 +358,7 @@ a .nav-link {
   text-align: center;
   font-family: "Open Sans"; }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .project-description {
     width: 100%;
     text-align: left; }
