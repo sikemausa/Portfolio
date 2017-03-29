@@ -1,17 +1,21 @@
 /*
-Error: Undefined variable: "$header-color".
-        on line 2 of src/styles/scss/Contact.scss
+Error: Undefined variable: "$main-font-color".
+        on line 6 of src/styles/scss/Contact.scss
 
 1: #contact {
-2:   background-color: $header-color;
-3:   height: 450px;
-4:   color: $main-font-color;
-5:   font-family: $main-font-family;
-6:   display: flex;
-7:   flex-direction: column;
+2:   display          : flex;
+3:   height           : 450px;
+4:   height           : 75vh;
+5:   padding-bottom   : 25px;
+6:   color            : $main-font-color;
+7:   background-color : $header-color;
+8:   text-align       : center;
+9:   font-family      : $main-font-family;
+10:   flex-direction   : column;
+11:   justify-content  : center;
 
 Backtrace:
-src/styles/scss/Contact.scss:2
+src/styles/scss/Contact.scss:6
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -64,4 +68,4 @@ src/styles/scss/Contact.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-color\".\A         on line 2 of src/styles/scss/Contact.scss\A \A 1: #contact {\A 2:   background-color: $header-color;\A 3:   height: 450px;\A 4:   color: $main-font-color;\A 5:   font-family: $main-font-family;\A 6:   display: flex;\A 7:   flex-direction: column;"; }
+  content: "Error: Undefined variable: \"$main-font-color\".\A         on line 6 of src/styles/scss/Contact.scss\A \A 1: #contact {\A 2:   display          : flex;\A 3:   height           : 450px;\A 4:   height           : 75vh;\A 5:   padding-bottom   : 25px;\A 6:   color            : $main-font-color;\A 7:   background-color : $header-color;\A 8:   text-align       : center;\A 9:   font-family      : $main-font-family;\A 10:   flex-direction   : column;\A 11:   justify-content  : center;"; }
