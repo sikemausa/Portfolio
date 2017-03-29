@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$header-color".
-        on line 18 of src/styles/scss/Header.scss
+        on line 19 of src/styles/scss/Header.scss
 
-13: 
-14: #header-nav {
-15:   display          : flex;
-16:   width            : 100%;
-17:   height           : 10vh;
-18:   background-color : $header-color;
-19:   align-items      : center;
-20:   font-family      : Helvetica;
-21:   font-size        : 1.2em;
-22:   font-weight      : 100;
-23:   flex-direction   : row;
+14: 
+15: #header-nav {
+16:   display          : flex;
+17:   width            : 100%;
+18:   height           : 10vh;
+19:   background-color : $header-color;
+20:   align-items      : center;
+21:   font-family      : Helvetica;
+22:   font-size        : 1.2em;
+23:   font-weight      : 100;
+24:   flex-direction   : row;
 
 Backtrace:
-src/styles/scss/Header.scss:18
+src/styles/scss/Header.scss:19
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -68,4 +68,4 @@ src/styles/scss/Header.scss:18
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-color\".\A         on line 18 of src/styles/scss/Header.scss\A \A 13: \A 14: #header-nav {\A 15:   display          : flex;\A 16:   width            : 100%;\A 17:   height           : 10vh;\A 18:   background-color : $header-color;\A 19:   align-items      : center;\A 20:   font-family      : Helvetica;\A 21:   font-size        : 1.2em;\A 22:   font-weight      : 100;\A 23:   flex-direction   : row;"; }
+  content: "Error: Undefined variable: \"$header-color\".\A         on line 19 of src/styles/scss/Header.scss\A \A 14: \A 15: #header-nav {\A 16:   display          : flex;\A 17:   width            : 100%;\A 18:   height           : 10vh;\A 19:   background-color : $header-color;\A 20:   align-items      : center;\A 21:   font-family      : Helvetica;\A 22:   font-size        : 1.2em;\A 23:   font-weight      : 100;\A 24:   flex-direction   : row;"; }
