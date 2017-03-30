@@ -59,7 +59,7 @@ class Header extends Component {
               <Link activeClass="active" offset={-80} to="Work" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
                 <li className="nav-link">Portfolio</li>
               </Link>
-              <Link activeClass="active" offset={-350} to="Contact" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
+              <Link activeClass="active" offset={-325} to="Contact" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
                 <li className="nav-link">Contact</li>
               </Link>
             </ul>
