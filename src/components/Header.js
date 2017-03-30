@@ -50,16 +50,16 @@ class Header extends Component {
     return (
           <div id="header">
             <ul id="header-nav">
-              <Link activeClass="active" offset={-80} to="Home" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
+              <Link activeClass="active" to="Home" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
                 <li className="nav-link">Home</li>
               </Link>
-              <Link activeClass="active" offset={-80} to="About" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
+              <Link activeClass="active" to="About" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
                 <li className="nav-link">About</li>
               </Link>
               <Link activeClass="active" offset={-80} to="Work" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
                 <li className="nav-link">Portfolio</li>
               </Link>
-              <Link activeClass="active" offset={-450} to="Contact" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
+              <Link activeClass="active" offset={-325} to="Contact" spy={true} smooth={true} duration={1750} onSetActive={this.handleSetActive}>
                 <li className="nav-link">Contact</li>
               </Link>
             </ul>

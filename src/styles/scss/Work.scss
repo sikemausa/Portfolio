@@ -166,10 +166,20 @@
   font-family : $main-font-family;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .project-description {
     width      : 100%;
     text-align : left;
+  }
+
+  .project {
+    background-size     : cover;
+    background-position: right;
+  }
+
+  .project:hover {
+    background-size     : cover;
+    background-position: right;
   }
 
   .project-title {

@@ -358,10 +358,18 @@ a .nav-link {
   text-align: center;
   font-family: "Open Sans"; }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .project-description {
     width: 100%;
     text-align: left; }
+
+  .project {
+    background-size: cover;
+    background-position: right; }
+
+  .project:hover {
+    background-size: cover;
+    background-position: right; }
 
   .project-title {
     text-align: center; }
@@ -423,6 +431,7 @@ a .nav-link {
 
 .about-description {
   position: absolute;
+  top: 100px;
   width: 700px;
   margin-top: 50px;
   padding: 20px;
