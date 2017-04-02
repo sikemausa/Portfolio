@@ -31,9 +31,9 @@
 
 #contact-job-title {
   margin         : 10px;
-  padding-right  : 50px;
+  padding-right  : 25px;
   padding-bottom : 30px;
-  padding-left   : 50px;
+  padding-left   : 25px;
   border-bottom  : 1px solid white;
   text-align     : center;
   font-weight    : 100;
@@ -47,13 +47,20 @@
 }
 
 .contact {
-  margin      : 15px;
+  margin      : 10px 20px 0 20px;
   font-weight : 100;
 }
 
-a {
+.contact {
   color           : $main-font-color;
   text-decoration : none;
+  transition      : all .17s linear;
+  display         : inline-block;
+}
+
+.contact:hover {
+  color     : black;
+  transform: scale(1.5);
 }
 
 @media (max-width: 850px) {
