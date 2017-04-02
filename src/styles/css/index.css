@@ -512,13 +512,13 @@ a .nav-link {
   margin: 10px 20px 0 20px;
   font-weight: 100; }
 
-a {
+.contact {
   color: #FFFFFF;
   text-decoration: none;
   transition: all .17s linear;
   display: inline-block; }
 
-.contact a:hover {
+.contact:hover {
   color: black;
   transform: scale(1.5); }
 

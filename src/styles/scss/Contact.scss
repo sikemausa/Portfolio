@@ -51,18 +51,16 @@
   font-weight : 100;
 }
 
-a {
+.contact {
   color           : $main-font-color;
   text-decoration : none;
   transition      : all .17s linear;
   display         : inline-block;
 }
 
-.contact {
-  a:hover {
-    color     : black;
-    transform: scale(1.5);
-  }
+.contact:hover {
+  color     : black;
+  transform: scale(1.5);
 }
 
 @media (max-width: 850px) {
