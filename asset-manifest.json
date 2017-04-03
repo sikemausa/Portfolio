@@ -1,18 +1,17 @@
 {
-  "main.css": "static/css/main.9af040fd.css",
-  "main.css.map": "static/css/main.9af040fd.css.map",
-  "main.js": "static/js/main.f5dba33e.js",
-  "main.js.map": "static/js/main.f5dba33e.js.map",
+  "main.css": "static/css/main.aa64b2b6.css",
+  "main.css.map": "static/css/main.aa64b2b6.css.map",
+  "main.js": "static/js/main.faeb07fc.js",
+  "main.js.map": "static/js/main.faeb07fc.js.map",
   "static/media/Flatirons5.jpg": "static/media/Flatirons5.7187ffb7.jpg",
-  "static/media/about-me-image.jpg": "static/media/about-me-image.4655c52e.jpg",
-  "static/media/contact-picture.jpg": "static/media/contact-picture.fb9c94dc.jpg",
+  "static/media/about-me-image2.jpg": "static/media/about-me-image2.9ab99880.jpg",
   "static/media/github.svg": "static/media/github.1c243295.svg",
   "static/media/iMac.png": "static/media/iMac.5ff2f8f9.png",
   "static/media/linkedin.svg": "static/media/linkedin.fc95007a.svg",
   "static/media/macbook.png": "static/media/macbook.749c315e.png",
-  "static/media/memory-small.png": "static/media/memory-small.fa9649e0.png",
+  "static/media/memory-small2.jpg": "static/media/memory-small2.c359f687.jpg",
   "static/media/phones.png": "static/media/phones.3d50ade3.png",
-  "static/media/pigeon.png": "static/media/pigeon.0bd3f0d8.png",
-  "static/media/reminders-small.png": "static/media/reminders-small.e4a39692.png",
-  "static/media/sick-beats-small.png": "static/media/sick-beats-small.30de87a3.png"
+  "static/media/pigeon2.jpg": "static/media/pigeon2.d5fc099d.jpg",
+  "static/media/reminders-small2.jpg": "static/media/reminders-small2.619a2ece.jpg",
+  "static/media/sick-beats-small2.jpg": "static/media/sick-beats-small2.bd351a69.jpg"
 }
