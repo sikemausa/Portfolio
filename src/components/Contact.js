@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import contactPicture from '../images/contact-picture.jpg';
-import pigeon from '../images/pigeon.png';
+import pigeon from '../images/pigeon2.jpg';
 
 class Contact extends Component {
   render() {

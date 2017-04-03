@@ -142,7 +142,7 @@ a .nav-link {
   height: 90vh;
   opacity: 0.3;
   overflow: auto;
-  background-image: url("../../images/Flatirons4.jpg");
+  background-image: url("../../images/Flatirons6.jpg");
   background-position: center;
   background-size: cover; }
 
@@ -265,19 +265,19 @@ a .nav-link {
   transition: all 0.5s; }
 
 .MemoryPalace {
-  background-image: url("../../images/memory-small.png");
+  background-image: url("../../images/memory-small3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
 
 .SickBeats {
-  background-image: url("../../images/sick-beats-small.png");
+  background-image: url("../../images/sick-beats-small3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
 
 .NativeReminders {
-  background-image: url("../../images/reminders-small.png");
+  background-image: url("../../images/reminders-small3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
@@ -399,7 +399,7 @@ a .nav-link {
   padding-top: 61.5%;
   opacity: 0.95;
   overflow: auto;
-  background-image: url("../../images/about-me-image.jpg");
+  background-image: url("../../images/about-me-image2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
