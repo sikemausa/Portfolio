@@ -142,7 +142,7 @@
 }
 
 .project-description {
-  width      : 50%;
+  width      : 55%;
   padding    : 10px;
   text-align : center;
 }
@@ -166,7 +166,7 @@
   font-family : $main-font-family;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .project-description {
     width      : 100%;
     text-align : left;
