@@ -34,6 +34,11 @@
     cursor          : default;
   }
 
+  .active {
+    font-size : 1.4em;
+    color: black;
+  }
+
   a:hover {
     color     : black;
     transform : scale(1.25);
@@ -65,10 +70,6 @@
   img:active {
     background-color : $header-color;
   }
-}
-
-.active {
-  font-size : 1.4em;
 }
 
 @media (max-width: 500px) {
