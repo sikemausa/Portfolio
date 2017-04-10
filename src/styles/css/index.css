@@ -94,9 +94,9 @@ a .nav-link {
     cursor: default; }
   #header-nav .active {
     font-size: 1.4em;
-    color: black; }
+    color: #111; }
   #header-nav a:hover {
-    color: black;
+    color: #111;
     transform: scale(1.25); }
 
 #social-media {
@@ -195,7 +195,7 @@ a .nav-link {
   left: 15px;
   margin: auto;
   border: 10px solid transparent;
-  border-top-color: black; }
+  border-top-color: #111; }
 
 #arrow-link:before {
   content: "";
@@ -236,7 +236,7 @@ a .nav-link {
   .project:hover .github-button {
     transform: scale(1.1); }
   .project:hover .project-text {
-    text-shadow: 1px 1px 2px black; }
+    text-shadow: 1px 1px 2px #111; }
   .project:hover .github-button {
     opacity: 1; }
 
@@ -519,7 +519,7 @@ a .nav-link {
   display: inline-block; }
 
 .contact:hover {
-  color: black;
+  color: #111;
   transform: scale(1.5); }
 
 @media (max-width: 850px) {
