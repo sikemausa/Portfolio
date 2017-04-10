@@ -18,7 +18,7 @@ class Work extends Component {
               searched for by the user.
             </p>
             <p className="project-technologies">
-              Built with: React-native, Redux, Auth-0,
+              Built with: React-native, Redux, Auth-0
             </p>
             <h3 className="github-button">View project on Github</h3>
           </div>
@@ -49,7 +49,7 @@ class Work extends Component {
               reminders.
             </p>
             <p className="project-technologies">
-              Built with: Electron, Vue, SQLite3,
+              Built with: Electron, Vue, SQLite3
             </p>
             <h3 className="github-button">View project on Github</h3>
           </div>

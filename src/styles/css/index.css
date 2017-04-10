@@ -334,7 +334,8 @@ a .nav-link {
   width: 330px;
   text-align: right;
   font-size: 2.5em;
-  font-weight: 100; }
+  font-weight: 100;
+  margin-bottom: 20px; }
 
 .project-description {
   width: 55%;
