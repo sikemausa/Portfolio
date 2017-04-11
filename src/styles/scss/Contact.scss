@@ -25,12 +25,13 @@
 
 #contact-name {
   margin-bottom : 10px;
-  font-size     : 45px;
+  font-size     : 35px;
   font-weight   : 100;
 }
 
 #contact-job-title {
   margin         : 10px;
+  font-size: 20px;
   padding-right  : 25px;
   padding-bottom : 30px;
   padding-left   : 25px;
@@ -59,7 +60,7 @@
 }
 
 .contact:hover {
-  color     : black;
+  color     : #111;
   transform: scale(1.5);
 }
 

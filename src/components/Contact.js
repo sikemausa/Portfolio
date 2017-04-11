@@ -12,8 +12,8 @@ class Contact extends Component {
           <h2 id="contact-job-title">I would love to hear from you about new projects and opportunities in the industry!</h2>
           <h3>
             <a className="contact" href="mailto:mikejsausa@gmail.com">Email</a> •
-            <a className="contact" href="https://github.com/sikemausa" target="_blank"> Github </a> •
-            <a className="contact" href="https://www.linkedin.com/in/mikesausa/" target="_blank">Linkedin</a></h3>
+            <a className="contact" href="https://github.com/sikemausa" target="_blank"> GitHub </a> •
+            <a className="contact" href="https://www.linkedin.com/in/mikesausa/" target="_blank">LinkedIn</a></h3>
         </div>
       </section>
     );
