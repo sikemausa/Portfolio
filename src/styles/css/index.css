@@ -73,7 +73,8 @@ a .nav-link {
   top: 0;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  color: white; }
 
 #header-nav {
   display: flex;
@@ -511,7 +512,7 @@ a .nav-link {
   border-radius: 200px; }
 
 .contact {
-  margin: 10px 20px 0 20px;
+  margin: 10px 25px 0 30px;
   font-weight: 100; }
 
 .contact {
